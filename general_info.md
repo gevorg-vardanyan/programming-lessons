@@ -4,7 +4,7 @@ layout: default
 
 ## 📋 General Information
 
-<a class="no-print" href="./index.md">← Back to Curriculum</a>
+<a class="no-print" href="./">← Back to Curriculum</a>
 
 ### 📚 Learning Process
 
