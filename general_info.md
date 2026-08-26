@@ -4,7 +4,7 @@ layout: default
 
 ## 📋 General Information
 
-[← Back to Curriculum](./index.html)
+[← Back to Curriculum](./index.md)
 
 
 ### Learning Process
