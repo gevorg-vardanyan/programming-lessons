@@ -4,7 +4,7 @@ layout: default
 
 # Programming School Curriculum
 
-[General information](./general_info.md)
+<!-- <a class="no-print" href="./general_info.md">General information</a> -->
 
 ### 🟢 Level 1 — Beginner (Foundation)
 
