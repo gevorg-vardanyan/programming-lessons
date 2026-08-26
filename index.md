@@ -113,3 +113,34 @@ layout: default
 
 
 
+### 🟣 Level 4 — Real Work Simulation
+
+> **Work like in a real company**
+
+**Goal:** Bridge the gap between learning and a real job.
+
+#### Team Work
+
+- Pair programming
+- Agile basics
+- Task tracking
+
+#### Work Environment
+
+- Slack / Element
+- Email (Proton example)
+- Documentation
+
+#### Roles in IT
+
+- Junior / Middle / Senior
+- Responsibilities
+- Career growth
+
+#### Final Project
+
+- Team-based
+- Real-world scenario
+- Code review + presentation
+
+
