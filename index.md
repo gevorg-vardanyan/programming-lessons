@@ -37,4 +37,43 @@ layout: default
 
 ---
 
-<!-- More levels will be added here -->
+### 🟡 Level 2 — Intermediate (Real Development)
+
+> **Start thinking like a developer**
+
+**Goal:** Build real applications and understand the development workflow.
+
+#### Python Advanced
+
+- OOP
+- Modules & packages
+- Virtual environments
+- Error handling
+
+#### Git & Collaboration
+
+- Branching
+- Pull requests
+- Code review basics
+
+#### Databases
+
+- SQL basics
+- PostgreSQL
+- CRUD operations
+- Simple schema design
+
+#### Algorithms (Practical)
+
+- Searching
+- Sorting
+- Data structures basics
+
+#### Development Environment
+
+- Vim / Neovim
+- CLI tools
+- Debugging
+
+
+
