@@ -54,12 +54,16 @@
         <style>
           @media print {
               button {
-                  display: none;
+                display: none;
+              }
+              .no-print {
+                display: none;
               }
           }
         </style>
-          
-        <button onclick="window.print()">🖨️ Print this page</button>
+        <div class="no-print">
+          <button onclick="window.print()">🖨️ Print this page</button>
+        </div>
       </footer>
     </div>
   </body>
