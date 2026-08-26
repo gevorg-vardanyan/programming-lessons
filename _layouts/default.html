@@ -51,6 +51,15 @@
           <p>Project maintained by Gevorg Vardanyan</a></p>
           <!-- <p>Project maintained by <a href="{{ site.github.owner_url }}">Gevorg Vardanyan</a></p> -->
         {% endif %}
+        <style>
+          @media print {
+              button {
+                  display: none;
+              }
+          }
+        </style>
+          
+        <button onclick="window.print()">🖨️ Print this page</button>
       </footer>
     </div>
   </body>
