@@ -488,7 +488,14 @@ footer {
     margin-top: 5px;
   }
 
-  // #banner { display: none;}
+  #banner {
+    // display: none;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+  }
+
   header ul {
     display:none;
   }
