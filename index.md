@@ -139,6 +139,20 @@ layout: default
 
 #### Final Project
 
+
+
+### 🤖 Bonus Module — AI for Developers
+
+> **Use AI as a practical development tool**
+
+#### AI & Programming
+
+- AI vs traditional programming
+- Using AI tools
+- Building a simple chatbot
+- How developers actually use AI today
+
+
 - Team-based
 - Real-world scenario
 - Code review + presentation
