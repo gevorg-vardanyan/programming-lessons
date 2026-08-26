@@ -76,4 +76,40 @@ layout: default
 - Debugging
 
 
+### 🔵 Level 3 — Backend Developer (Professional)
+
+> **Become job-ready**
+
+**Goal:** Build production-like systems.
+
+#### Web Development
+
+- HTTP basics
+- APIs
+- REST
+
+#### Frameworks
+
+- Django (main focus)
+- Flask (lightweight understanding)
+
+#### Authentication & Security
+
+- Sessions
+- Tokens
+- Basics of security
+
+#### Project Architecture
+
+- MVC
+- Code structure
+- Scaling basics
+
+#### Deployment
+
+- Linux server basics
+- Running apps
+- Nginx / Gunicorn (optional)
+
+
 
