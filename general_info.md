@@ -4,11 +4,13 @@ layout: default
 
 ## 📋 General Information
 
+<div class="no-print">
 [← Back to Curriculum](./index.md)
+</div>
 
+### 📚 Learning Process
 
-### Learning Process
-
+- The learning week consists of **3 lessons**.
 - Each lesson takes approximately **2 hours**:
   - **45–50 minutes** — first part of the lesson.
   - **10–15 minutes** — break.
