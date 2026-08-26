@@ -15,7 +15,7 @@ layout: default
 - Installing OS
 - File system
 - Terminal basics
-- Package managers (`apt`)
+- Package managers
 
 #### Terminal & Shell
 
