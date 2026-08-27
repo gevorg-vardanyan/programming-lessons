@@ -365,6 +365,28 @@ footer {
   line-height: 16px;
 }
 
+.language-selector {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+
+  a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px #235796;
+    padding: 4px 6px;
+    border-radius: 3px;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+    }
+  }
+}
+
 @media print, screen and (max-width: 1060px) {
 
   div.wrapper {
@@ -540,5 +562,17 @@ footer {
     left:auto;
     bottom:auto;
     width:auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .language-selector {
+    top: 3px;
+    right: 5px;
+
+    a {
+      font-size: 11px;
+      padding: 2px 3px;
+    }
   }
 }
