@@ -380,7 +380,7 @@ footer {
     float:none;
 
     h1 {
-      white-space: nowrap;
+      white-space: normal;
       overflow: hidden;
       text-overflow: ellipsis;
       -o-text-overflow: ellipsis;
@@ -487,6 +487,8 @@ footer {
   }
   section {
     margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #banner {
