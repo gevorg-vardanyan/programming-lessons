@@ -509,6 +509,9 @@ footer {
     font-size:12pt;
     color:#444;
   }
+  .no-print {
+    display: none;
+  }
 }
 
 @media print, screen and (max-height: 680px) {
