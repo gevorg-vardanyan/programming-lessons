@@ -24,7 +24,7 @@
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
 
-      <div id="banner">
+      <div id="banner" class="no-print">
         <!-- <span id="logo"></span> -->
 
         <!--<a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>-->
@@ -58,16 +58,6 @@
           <p>Project maintained by Gevorg Vardanyan</a></p>
           <!-- <p>Project maintained by <a href="{{ site.github.owner_url }}">Gevorg Vardanyan</a></p> -->
         {% endif %}
-        <style>
-          @media print {
-              button {
-                display: none;
-              }
-              .no-print {
-                display: none;
-              }
-          }
-        </style>
         <div class="no-print">
           <button onclick="window.print()">🖨️ Print this page</button>
         </div>
