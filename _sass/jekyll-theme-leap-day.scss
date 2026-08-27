@@ -477,7 +477,8 @@ footer {
 
     h1 {
       font-size: 24px;
-      white-space: nowrap;
+      white-space: normal;
+      // white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       -o-text-overflow: ellipsis;
@@ -494,6 +495,7 @@ footer {
     top: auto;
     left: auto;
     right: auto;
+    box-sizing: border-box;
   }
 
   header ul {
