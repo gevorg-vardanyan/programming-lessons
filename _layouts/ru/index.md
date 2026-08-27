@@ -10,7 +10,7 @@ layout: default
 
 > **От нуля до написания ваших первых настоящих программ**
 
-**Goal:** Student understands how a computer works and can write basic Python programs.
+**Цель:** Студент понимает, как работает компьютер, и умеет писать простые программы на языке Python..
 
 #### Linux / Ubuntu Basics
 
