@@ -1,4 +1,23 @@
-<h1>{{ site.data[page.lang].header_title }}</h1>
-<!-- <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
-<p> </p>
-<p>{{ site.data[page.lang].description | default: site.description | default: site.github.project_tagline }}</p>
+<header>
+  {% include lang-switcher.html %}
+
+  <script>
+    const path = window.location.pathname;
+    // find the current language from /hy/, /en/ or /ru/
+    const match = path.match(/\/(hy|en|ru)(\/.*)?$/);
+    if (match) {
+        const currentPage = match[2] || '/';         
+        document.querySelector('[data-lang="hy"]').href =
+            `{{ site.baseurl }}/hy${currentPage}`;
+        document.querySelector('[data-lang="en"]').href =
+            `{{ site.baseurl }}/en${currentPage}`;
+        document.querySelector('[data-lang="ru"]').href =
+            `{{ site.baseurl }}/ru${currentPage}`;
+    }
+  </script>
+
+  <h1>{{ site.data[page.lang].header_title }}</h1>
+  <!-- <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
+  <p> </p>
+  <p>{{ site.data[page.lang].description | default: site.description | default: site.github.project_tagline }}</p>
+</header>
