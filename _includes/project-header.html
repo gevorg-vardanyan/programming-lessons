@@ -2,9 +2,11 @@
   {% include lang-switcher.html %}
 
   <script>
-    const match = "{{ page.lang }}";
+    const url = window.location.pathname;
+    // find the current language from /hy/, /en/ or /ru/
+    const urlMatch = path.match(/\/(hy|en|ru)(\/.*)?$/);
     if (match) {
-        const currentPage = match[2] || '/';         
+        const currentPage = urlMatch[2] || '/';         
         document.querySelector('[data-lang="hy"]').href =
             `{{ site.baseurl }}/hy${currentPage}`;
         document.querySelector('[data-lang="en"]').href =
