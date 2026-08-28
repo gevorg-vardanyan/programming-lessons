@@ -2,4 +2,4 @@
 layout: default
 ---
 
-## 📋 General Information RU
+## 📋 Общая информация
