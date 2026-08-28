@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: en
+permalink: /en/index.html
 ---
 
 # Programming School Curriculum
