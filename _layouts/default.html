@@ -20,34 +20,28 @@
       <header>
         
         <div class="language-selector">
-          <a href="#" data-lang="en">🇬🇧 EN</a>
-          <a href="#" data-lang="ru">🇷🇺 RU</a>
           <a href="#" data-lang="hy">🇦🇲 ՀԱՅ</a>
+          <a href="#" data-lang="ru">🇷🇺 RU</a>
+          <a href="#" data-lang="en">🇬🇧 EN</a>
         </div>
         
         <script>
-          const currentPath = window.location.pathname;
-          const baseUrl = "{{ site.baseurl }}";
-        
-          // Get the current page path relative to the site root
-          let page = currentPath.replace(baseUrl, '').replace(/^\/+/, '');
-        
-          // Remove language directory if we're already inside one
-          page = page.replace(/^(ru|hy)\//, '');
-        
-          document.querySelectorAll('.language-selector a').forEach(link => {
-            const lang = link.dataset.lang;
-        
-            let target;
-        
-            if (lang === 'en') {
-              target = `${baseUrl}/${page}`;
-            } else {
-              target = `${baseUrl}/${lang}/${page}`;
-            }
-        
-            link.href = target;
-          });
+          const path = window.location.pathname;
+          
+          const match = path.match(/\/(hy|en|ru)(\/.*)?$/);
+          
+          if (match) {
+              const currentPage = match[2] || '/';
+              
+              document.querySelector('[data-lang="hy"]').href =
+                  `{{ site.baseurl }}/hy${currentPage}`;
+          
+              document.querySelector('[data-lang="en"]').href =
+                  `{{ site.baseurl }}/en${currentPage}`;
+          
+              document.querySelector('[data-lang="ru"]').href =
+                  `{{ site.baseurl }}/ru${currentPage}`;
+          }
         </script>
         
         <h1>Programming lessons</h1>
