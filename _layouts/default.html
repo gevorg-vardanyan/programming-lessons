@@ -38,14 +38,6 @@
               document.querySelector('[data-lang="ru"]').href =
                   `{{ site.baseurl }}/ru${currentPage}`;
           }
-      
-          // // Armenian is the default language
-          // const language = match ? match[1] : 'hy';
-          // const baseUrl = "{{ site.baseurl }}";    
-          // document.getElementById('curriculum-link').href =
-          //   `${baseUrl}/${language}/`;
-          // document.getElementById('general-info-link').href =
-          //   `${baseUrl}/${language}/general-information.html`;
         </script>
         
         <h1>Programming lessons</h1>
@@ -90,9 +82,9 @@
 
       </section>
         <script>
-          const path = window.location.pathname;
-          // find the current language from /hy/, /en/ or /ru/
-          const match = path.match(/\/(hy|en|ru)(\/.*)?$/);
+          // const path = window.location.pathname;
+          // // find the current language from /hy/, /en/ or /ru/
+          // const match = path.match(/\/(hy|en|ru)(\/.*)?$/);
           // Armenian is the default language
           const language = match ? match[1] : 'hy';
           const baseUrl = "{{ site.baseurl }}";    
