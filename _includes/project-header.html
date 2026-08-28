@@ -4,7 +4,7 @@
   <script>
     const url = window.location.pathname;
     // find the current language from /hy/, /en/ or /ru/
-    const urlMatch = path.match(/\/(hy|en|ru)(\/.*)?$/);
+    const urlMatch = url.match(/\/(hy|en|ru)(\/.*)?$/);
     if (match) {
         const currentPage = urlMatch[2] || '/';         
         document.querySelector('[data-lang="hy"]').href =
