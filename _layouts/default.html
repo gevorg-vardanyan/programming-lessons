@@ -39,13 +39,13 @@
                   `{{ site.baseurl }}/ru${currentPage}`;
           }
       
-          // Armenian is the default language
-          const language = match ? match[1] : 'hy';
-          const baseUrl = "{{ site.baseurl }}";    
-          document.getElementById('curriculum-link').href =
-            `${baseUrl}/${language}/`;
-          document.getElementById('general-info-link').href =
-            `${baseUrl}/${language}/general-information.html`;
+          // // Armenian is the default language
+          // const language = match ? match[1] : 'hy';
+          // const baseUrl = "{{ site.baseurl }}";    
+          // document.getElementById('curriculum-link').href =
+          //   `${baseUrl}/${language}/`;
+          // document.getElementById('general-info-link').href =
+          //   `${baseUrl}/${language}/general-information.html`;
         </script>
         
         <h1>Programming lessons</h1>
@@ -89,6 +89,18 @@
         {{ content }}
 
       </section>
+        <script>
+          const path = window.location.pathname;
+          // find the current language from /hy/, /en/ or /ru/
+          const match = path.match(/\/(hy|en|ru)(\/.*)?$/);
+          // Armenian is the default language
+          const language = match ? match[1] : 'hy';
+          const baseUrl = "{{ site.baseurl }}";    
+          document.getElementById('curriculum-link').href =
+            `${baseUrl}/${language}/`;
+          document.getElementById('general-info-link').href =
+            `${baseUrl}/${language}/general-information.html`;
+        </script>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by Gevorg Vardanyan</a></p>
