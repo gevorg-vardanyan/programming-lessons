@@ -1,9 +1,4 @@
-<h1>
-  {% if page.lang == "hy" %}
-    Ծրագրավորման դասընթացներ
-  {% elsif page.lang == "ru" %}
-    Уроки программирования
-  {% else %}
-    Programming lessons
-  {% endif %}
-</h1>
+<h1>{{ site.data[page.lang].header_title }}</h1>
+<!-- <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
+<p> </p>
+<p>{{ site.data[page.lang].description | default: site.description | default: site.github.project_tagline }}</p>
