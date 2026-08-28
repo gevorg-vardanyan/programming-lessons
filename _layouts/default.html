@@ -38,47 +38,10 @@
       </nav>
       <section>
         {{ content }}
-
       </section>
-        <script>   
-          // const bannerTranslations = {
-          //   hy: {
-          //     curriculum: "Ուսումնական ծրագիր",
-          //     generalInfo: "Ընդհանուր տեղեկություններ"
-          //   },
-          //   ru: {
-          //     curriculum: "Программа обучения",
-          //     generalInfo: "Общая информация"
-          //   },
-          //   en: {
-          //     curriculum: "Curriculum",
-          //     generalInfo: "General information"
-          //   }
-          // };
-          // const baseUrl = "{{ site.baseurl }}";
-          // // Armenian is the default language
-          // // const language = match ? match[1] : 'hy';
-          // const language = "{{ page.lang }}";
-          // // update Curriculum button
-          // const curriculumLink = document.getElementById('curriculum-link');
-          // curriculumLink.href = `${baseUrl}/${language}/`;
-          // curriculumLink.textContent = bannerTranslations[language].curriculum;
-          // // update General Information button
-          // const generalInfoLink = document.getElementById('general-info-link');
-          // generalInfoLink.href =
-          //   `${baseUrl}/${language}/general-information.html`;
-          // generalInfoLink.textContent =
-          //   bannerTranslations[language].generalInfo;
-        </script>
-      <footer>
-        {% if site.github.is_project_page %}
-          <p>Project maintained by Gevorg Vardanyan</a></p>
-          <!-- <p>Project maintained by <a href="{{ site.github.owner_url }}">Gevorg Vardanyan</a></p> -->
-        {% endif %}
-        <div class="no-print">
-          <button onclick="window.print()">🖨️ Print this page</button>
-        </div>
-      </footer>
+
+      {% include project-footer.html %}
+
     </div>
   </body>
 </html>
