@@ -97,13 +97,13 @@
             }
           };
           const baseUrl = "{{ site.baseurl }}";
-
-          // Update Curriculum button
+          // Armenian is the default language
+          const language = match ? match[1] : 'hy';
+          // update Curriculum button
           const curriculumLink = document.getElementById('curriculum-link');
           curriculumLink.href = `${baseUrl}/${language}/`;
           curriculumLink.textContent = bannerTranslations[language].curriculum;
-        
-          // Update General Information button
+          // update General Information button
           const generalInfoLink = document.getElementById('general-info-link');
           generalInfoLink.href =
             `${baseUrl}/${language}/general-information.html`;
