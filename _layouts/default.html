@@ -27,21 +27,25 @@
         
         <script>
           const path = window.location.pathname;
-          
+          // find the current language from /hy/, /en/ or /ru/
           const match = path.match(/\/(hy|en|ru)(\/.*)?$/);
-          
           if (match) {
-              const currentPage = match[2] || '/';
-              
+              const currentPage = match[2] || '/';         
               document.querySelector('[data-lang="hy"]').href =
                   `{{ site.baseurl }}/hy${currentPage}`;
-          
               document.querySelector('[data-lang="en"]').href =
                   `{{ site.baseurl }}/en${currentPage}`;
-          
               document.querySelector('[data-lang="ru"]').href =
                   `{{ site.baseurl }}/ru${currentPage}`;
           }
+      
+          // Armenian is the default language
+          const language = match ? match[1] : 'hy';
+          const baseUrl = "{{ site.baseurl }}";    
+          document.getElementById('curriculum-link').href =
+            `${baseUrl}/${language}/`;
+          document.getElementById('general-info-link').href =
+            `${baseUrl}/${language}/general-information.html`;
         </script>
         
         <h1>Programming lessons</h1>
@@ -54,7 +58,7 @@
         <!-- <span id="logo"></span> -->
 
         <!--<a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>-->
-        {% if site.show_downloads %}
+        <!-- {% if site.show_downloads %}
           <div class="downloads">
             <span>Downloads:</span>
             <ul>
@@ -62,11 +66,17 @@
               <li><a href="{{ site.github.tar_url }}" class="button">TAR</a></li>
             </ul>
           </div>
-        {% endif %}
+        {% endif %} -->
         <div class="downloads">
           <ul>
-            <li><a href="{{ site.baseurl }}/" class="button">Curriculum</a></li>
-            <li><a href="{{ site.baseurl }}/general-information.html" class="button">General information</a></li>
+            <!-- <li><a href="{{ site.baseurl }}/" class="button">Curriculum</a></li>
+            <li><a href="{{ site.baseurl }}/general-information.html" class="button">General information</a></li> -->
+            <li>
+              <a href="#" id="curriculum-link" class="button">Curriculum</a>
+            </li>
+            <li>
+              <a href="#" id="general-info-link" class="button">General information</a>
+            </li>
           </ul>
         </div>
       </div><!-- end banner -->
