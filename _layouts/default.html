@@ -20,13 +20,35 @@
       <header>
         
         <div class="language-selector">
-          <a href="./index.html">🇬🇧 EN</a>
-          <a href="./ru/index.html">🇷🇺 RU</a>
-          <a href="./hy/index.html">🇦🇲 ՀԱՅ</a>
-          <a href="{{ site.baseurl }}/">🇬🇧 EN</a>
-          <a href="{{ site.baseurl }}/ru/">🇷🇺 RU</a>
-          <a href="{{ site.baseurl }}/hy/">🇦🇲 ՀԱՅ</a>
+          <a href="#" data-lang="en">🇬🇧 EN</a>
+          <a href="#" data-lang="ru">🇷🇺 RU</a>
+          <a href="#" data-lang="hy">🇦🇲 ՀԱՅ</a>
         </div>
+        
+        <script>
+          const currentPath = window.location.pathname;
+          const baseUrl = "{{ site.baseurl }}";
+        
+          // Get the current page path relative to the site root
+          let page = currentPath.replace(baseUrl, '').replace(/^\/+/, '');
+        
+          // Remove language directory if we're already inside one
+          page = page.replace(/^(ru|hy)\//, '');
+        
+          document.querySelectorAll('.language-selector a').forEach(link => {
+            const lang = link.dataset.lang;
+        
+            let target;
+        
+            if (lang === 'en') {
+              target = `${baseUrl}/${page}`;
+            } else {
+              target = `${baseUrl}/${lang}/${page}`;
+            }
+        
+            link.href = target;
+          });
+        </script>
         
         <h1>Programming lessons</h1>
         <!-- <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
