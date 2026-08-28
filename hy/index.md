@@ -2,4 +2,4 @@
 layout: default
 ---
 
-# Programming School Curriculum HY
+# Ծրագրավորման դպրոցի ուսումնական ծրագիր
