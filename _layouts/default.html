@@ -36,7 +36,7 @@
           }
         </script>
         
-        <h1>Programming lessons: {{ page.lang }}</h1>
+        {% include project-header.html %}
         <!-- <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1> -->
         <p> </p>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
@@ -80,7 +80,8 @@
           };
           const baseUrl = "{{ site.baseurl }}";
           // Armenian is the default language
-          const language = match ? match[1] : 'hy';
+          // const language = match ? match[1] : 'hy';
+          const language = "{{ page.lang }}";
           // update Curriculum button
           const curriculumLink = document.getElementById('curriculum-link');
           curriculumLink.href = `${baseUrl}/${language}/`;
