@@ -1,0 +1,9 @@
+<footer>
+  {% if site.github.is_project_page %}
+    <p>{{ site.data[page.lang].maintainer_information }}</a></p>
+    <!-- <p>Project maintained by <a href="{{ site.github.owner_url }}">Gevorg Vardanyan</a></p> -->
+  {% endif %}
+  <div class="no-print">
+    <button onclick="window.print()">{{ site.data[page.lang].print_page }}</button>
+  </div>
+</footer>
