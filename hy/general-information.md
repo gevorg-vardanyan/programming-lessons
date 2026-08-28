@@ -2,5 +2,5 @@
 layout: default
 ---
 
-## 📋 General Information HY
+## 📋 Ընդհանուր տեղեկություններ
 
