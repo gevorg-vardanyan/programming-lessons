@@ -19,13 +19,8 @@
   <body>
 
       <header>
-        
-        <div class="language-selector">
-          <a href="#" data-lang="hy">🇦🇲 ՀԱՅ</a>
-          <a href="#" data-lang="ru">🇷🇺 RU</a>
-          <a href="#" data-lang="en">🇬🇧 EN</a>
-        </div>
-        
+        {% include lang-switcher.html %}
+
         <script>
           const path = window.location.pathname;
           // find the current language from /hy/, /en/ or /ru/
