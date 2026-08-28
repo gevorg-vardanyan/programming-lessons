@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: ru
+permalink: /ru/index.html
 ---
 
 # Учебная программа школы программирования
