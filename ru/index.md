@@ -4,7 +4,7 @@ lang: ru
 permalink: /ru/index.html
 ---
 
-# Учебная программа школы программирования
+# Учебная программа
 
 <!-- <a class="no-print" href="./general_info.md">General information</a> -->
 
