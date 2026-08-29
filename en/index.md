@@ -4,7 +4,7 @@ lang: en
 permalink: /en/index.html
 ---
 
-# Programming School Curriculum
+# Curriculum
 
 <!-- <a class="no-print" href="./general_info.md">General information</a> -->
 
