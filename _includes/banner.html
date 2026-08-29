@@ -2,15 +2,14 @@
   <li>
     <a
       href="{{ site.baseurl }}/{{ page.lang }}/index.html"
-      id="curriculum-link"
-      class="button">{{ site.data[page.lang].curriculum }}
-    </a>
+      class="button{% if page.name == 'index.md' %} active{% endif %}"
+    >{{ site.data[page.lang].curriculum }}</a>
   </li>
+
   <li>
     <a
       href="{{ site.baseurl }}/{{ page.lang }}/general-information.html"
-      id="general-info-link"
-      class="button">{{ site.data[page.lang].general_information }}
-    </a>
+      class="button{% if page.name == 'general-information.md' %} active{% endif %}"
+    >{{ site.data[page.lang].general_information }}</a>
   </li>
 </ul>
