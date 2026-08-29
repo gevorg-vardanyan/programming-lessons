@@ -230,6 +230,12 @@ header {
       background: linear-gradient(rgb(255, 231, 136), rgb(255, 231, 136));
       background-color: #ffeca0;
     }
+
+    &.active {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
   }
 
   .fork {
