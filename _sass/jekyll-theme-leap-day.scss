@@ -393,6 +393,10 @@ footer {
   }
 }
 
+.bookmark {
+  margin-top: 10px;
+}
+
 @media print, screen and (max-width: 1060px) {
 
   div.wrapper {
@@ -447,10 +451,6 @@ footer {
     bottom:auto;
     width:auto;
     }
-
-  bookmark {
-    margin-top: 10px;
-  }
 }
 
 @media print, screen and (max-width: 720px) {
