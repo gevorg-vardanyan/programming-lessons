@@ -4,7 +4,7 @@ lang: ru
 permalink: /ru/index.html
 ---
 
-# Учебная программа
+# Учебный план
 
 <!-- <a class="no-print" href="./general_info.md">General information</a> -->
 
