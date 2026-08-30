@@ -16,19 +16,7 @@
 
     {% include head-custom.html %}
     <script>
-      const pageTitle = `{{ page.title }}`;
-      const pageLang = `{{ page.lang }}`
-      console.log('page.lang:', pageLang);
-      const siteTitle = `{{ site.data[pageLang].title }}`;
-      console.log('pageTitle:', pageTitle);
-      console.log('siteTitle:', siteTitle);
-      console.log('`{{site.data}}`:', `{{site.data}}`);
-      console.log('`{{site.data["pageLang"]}}`:', `{{site.data[pageLang]}}`);
-      console.log('`{{site.data["pageLang"]}}`:', `{{site.data["pageLang"]}}`);
       const siteData = {{ site.data[page.lang] | jsonify }};
-      console.log('siteData:', siteData);
-      console.log('siteData.title:', siteData.title);
-      document.title = `${pageTitle} | ${siteTitle}`;
       document.title = "{{ page.title }} | " + siteData.title;
     </script>
   </head>
