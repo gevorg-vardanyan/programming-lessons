@@ -17,7 +17,9 @@
     {% include head-custom.html %}
     <script>
       const pageTitle = `{{ page.title }}`;
-      const siteTitle = `{{ site.data[page.lang | default: 'hy'].title }}`;
+      const pageLang = `page.lang | default: 'hy'`;
+      console.log('pageLang:', pageLang);
+      const siteTitle = `{{ site.data[pageLang].title }}`;
       console.log('pageTitle:', pageTitle);
       console.log('siteTitle:', siteTitle);
       document.title = `${pageTitle} | ${siteTitle}`;
