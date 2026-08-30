@@ -26,8 +26,10 @@
       console.log('`{{site.data["pageLang"]}}`:', `{{site.data[pageLang]}}`);
       console.log('`{{site.data["pageLang"]}}`:', `{{site.data["pageLang"]}}`);
       const siteData = {{ site.data[page.lang] | jsonify }};
-      conosle.log('siteData:', siteData);
+      console.log('siteData:', siteData);
+      console.log('siteData.title:', siteData.title);
       document.title = `${pageTitle} | ${siteTitle}`;
+      document.title = "{{ page.title }} | " + siteData.title;
     </script>
   </head>
   <body>
