@@ -232,7 +232,8 @@ header {
     }
 
     &.active {
-      text-decoration: underline;
+      // text-decoration: underline;
+      font-weight: bold;
       text-decoration-thickness: 2px;
       text-underline-offset: 10px;
     }
@@ -353,11 +354,6 @@ nav {
 
       &:hover { color: #999; }
     }
-
-    // .active {
-    //   border-right:solid 4px #39C;
-    //   padding-right:13px;
-    // }
   }
 }
 
