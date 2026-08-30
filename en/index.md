@@ -6,8 +6,6 @@ permalink: /en/index.html
 
 # Curriculum
 
-<!-- <a class="no-print" href="./general_info.md">General information</a> -->
-
 ### 🟢 Level 1 — Beginner (Foundation)
 
 > **From zero to writing your first real programs**
