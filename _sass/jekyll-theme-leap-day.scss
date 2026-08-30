@@ -506,10 +506,9 @@ footer {
     position: relative;
     padding: 5px 0px;
     min-height: 0px;
-    font-size: large;
 
     h1 {
-      font-size: 24px;
+      font-size: inherit;
       white-space: normal;
       // white-space: nowrap;
       overflow: hidden;
