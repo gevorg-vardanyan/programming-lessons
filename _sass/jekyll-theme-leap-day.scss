@@ -422,12 +422,17 @@ footer {
     width: 100%;
 
     .downloads {
-      // margin-right: 60px;
-      margin: 0 0 0 0;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 0;
     
       ul {
         display: flex;
         margin: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
       }
     }
 
@@ -496,7 +501,6 @@ footer {
       margin-left: 0px;
       position:static;
       // left:20px;
-
       }
   }
 
