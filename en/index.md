@@ -4,7 +4,7 @@ lang: en
 permalink: /en/index.html
 ---
 
-## Curriculum
+## 📚 Curriculum
 
 ### 🟢 Level 1 — Beginner (Foundation)
 
