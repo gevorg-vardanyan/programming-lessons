@@ -22,6 +22,8 @@
       const siteTitle = `{{ site.data[pageLang].title }}`;
       console.log('pageTitle:', pageTitle);
       console.log('siteTitle:', siteTitle);
+      console.log('site data:', {{site.data}});
+      console.log('site data:', `{{site.data}}`);
       document.title = `${pageTitle} | ${siteTitle}`;
     </script>
   </head>
