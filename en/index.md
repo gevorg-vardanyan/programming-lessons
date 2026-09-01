@@ -9,36 +9,70 @@ permalink: /en/index.html
 
 <br>
 
-### 🟢 Level 1 — Beginner (Foundation)
+### 🟢 Level 1: Fundamentals
 
-> **From zero to writing your first real programs**
+#### Linux / Ubuntu: fundamentals
 
-**Goal:** Student understands how a computer works and can write basic Python programs.
-
-#### Linux / Ubuntu Basics
-
-- Installing OS
+- Operating system installation
+- Getting familiar with the system
 - File system
-- Terminal basics
-- Package managers
+- Healthy computer habits
 
-#### Terminal & Shell
+#### Work environment
 
-- Bash basics
-- Navigation, pipes, redirection
-- Writing simple scripts
+- Communication tools
+- Assignments and homework
 
-#### Python Basics
+#### Working with files and folders
 
-- Variables, types
-- Conditions, loops
+- Listing files and folders
+- Navigating between folders
+- Searching and filtering
+
+#### Code editor: fundamentals
+
+- Vim and Neovim
+- Basic editing
+- Modes
+- Navigation
+- Operators and motions
+- Keyboard and blind typing
+
+#### Git: fundamentals
+
+- Repository
+- Basic commands
+- Commits
+- Remote repositories
+
+#### Shell scripting
+
+- Creating simple scripts
+- Variables and arguments
+- Conditions and loops
+- Running scripts
+
+#### Automation
+
+- Automating repetitive tasks
+- `cron` and scheduled tasks
+- Combining scripts with scheduled execution
+
+#### Python: fundamentals
+
+- Variables and types
+- Conditions and loops
 - Functions
-- Files
+- Working with files
 
-#### Tools Introduction
+#### Development environment
 
-- Git (basic)
-- Editor
+- IDE
+- Project structure
+- Creating a project
+- Python virtual environment
+- Dependencies
+- Environment variables
 
 ---
 
