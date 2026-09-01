@@ -5,6 +5,9 @@ permalink: /en/index.html
 ---
 
 ## 📚 Curriculum
+> ⚠️ **Attention:** The list below presents the main topics covered in the course. Each topic includes more than one lesson. The detailed content and practical exercises for each topic are covered during the course.
+
+<br>
 
 ### 🟢 Level 1 — Beginner (Foundation)
 
