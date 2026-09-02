@@ -20,6 +20,7 @@
           const date = new Date(commits[0].commit.committer.date);
           document.getElementById('last-updated').textContent =
             `Last updated: ${date.toLocaleDateString()}`;
+          console.log('date:', date)
       });
     </script>
   </head>
