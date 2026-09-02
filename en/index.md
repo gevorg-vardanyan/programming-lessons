@@ -122,7 +122,7 @@ permalink: /en/index.html
 
 ---
 
-### 🔵 Level 3 — Backend development
+### 🔵 Level 3: Backend development
 
 #### Web Development
 
@@ -151,7 +151,7 @@ permalink: /en/index.html
 
 ---
 
-### 🟣 Level 4 — Real Work Simulation
+### 🟣 Level 4: Real Work Simulation
 
 #### Team Work
 
@@ -167,11 +167,11 @@ permalink: /en/index.html
 
 #### Roles in IT
 
-- Junior / Middle / Senior
-- Responsibilities
+- Roles in a development team
+- Career levels and responsibilities
 - Career growth
 
-#### AI for Developers
+#### Artificial intelligence: AI
 
 - What is AI and how does it work?
 - Artificial and natural intelligence
@@ -179,8 +179,6 @@ permalink: /en/index.html
 - AI-assisted development
 - Vibe coding and its risks
 - AI tools for developers
-- AI-assisted searching and research
-- AI-assisted code review and verification
 - Ethics and responsible use of AI
 
 #### Final Project
