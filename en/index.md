@@ -179,6 +179,7 @@ permalink: /en/index.html
 
 #### AI for Developers
 
+- What is AI and how does it work?
 - Artificial and natural intelligence
 - When and how to use AI
 - AI-assisted development
