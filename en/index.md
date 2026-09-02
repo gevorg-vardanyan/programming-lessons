@@ -113,7 +113,7 @@ permalink: /en/index.html
 - Algorithm complexity
 - Advanced data structures
 
-#### Development Tools
+#### Development tools
 
 - CLI tools
 - Debugging
@@ -124,7 +124,7 @@ permalink: /en/index.html
 
 ### 🔵 Level 3: Backend development
 
-#### Web Development
+#### Web development
 
 - HTTP basics
 - APIs
@@ -135,13 +135,13 @@ permalink: /en/index.html
 - Django (main focus)
 - Flask
 
-#### Authentication & Security
+#### Authentication & security
 
 - Sessions
 - Tokens
 - Basics of security
 
-#### Project Architecture
+#### Project architecture
 
 - Application structure
 - Separation of responsibilities
@@ -151,15 +151,15 @@ permalink: /en/index.html
 
 ---
 
-### 🟣 Level 4: Real Work Simulation
+### 🟣 Level 4: Working process
 
-#### Team Work
+#### Team work
 
 - Agile basics
 - Task tracking
 - Pair programming
 
-#### Work Environment
+#### Work environment
 
 - Professional communication
 - Documentation
