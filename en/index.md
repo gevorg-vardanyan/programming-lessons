@@ -34,7 +34,6 @@ permalink: /en/index.html
 - Vim and Neovim
 - Basic editing
 - Modes
-- Navigation
 - Operators and motions
 - Keyboard and blind typing
 
@@ -124,7 +123,7 @@ permalink: /en/index.html
 
 ### 🔵 Level 3: Backend development
 
-#### Web development
+#### Web technologies
 
 - HTTP basics
 - APIs
