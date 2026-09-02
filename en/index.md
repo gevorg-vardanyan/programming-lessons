@@ -179,10 +179,10 @@ permalink: /en/index.html
 - When and how to use AI
 - AI-assisted development
 - Vibe coding and its risks
-- Ethics and responsible use of AI
 - AI tools for developers
 - AI-assisted searching and research
 - AI-assisted code review and verification
+- Ethics and responsible use of AI
 
 #### Final Project
 
