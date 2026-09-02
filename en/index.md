@@ -61,6 +61,7 @@ permalink: /en/index.html
 #### Python: fundamentals
 
 - Variables and types
+- Built-in data structures
 - Conditions and loops
 - Functions
 - Working with files
@@ -76,44 +77,53 @@ permalink: /en/index.html
 
 ---
 
-### 🟡 Level 2 — Intermediate (Real Development)
+### 🟡 Level 2: Intermediate
 
-> **Start thinking like a developer**
+#### Python: Advanced
 
-**Goal:** Build real applications and understand the development workflow.
-
-#### Python Advanced
-
-- OOP
-- Modules & packages
-- Virtual environments
-- Error handling
+* Object-oriented programming (OOP)
+* Modules and packages
+- Exceptions and error handling
+- Package managers
 
 #### Git & Collaboration
 
 - Branching
+- Merging
+- Resolving merge conflicts
 - Pull requests
 - Code review basics
 
 #### Databases
 
+- Database types
 - SQL basics
 - PostgreSQL
 - CRUD operations
-- Simple schema design
+- Database design
+- Normalization
 
-#### Algorithms (Practical)
+#### Algorithms
 
 - Searching
 - Sorting
-- Data structures basics
+- Algorithm complexity
+- Advanced data structures
 
-#### Development Environment
+#### Development Tools
 
-- Vim / Neovim
 - CLI tools
 - Debugging
+- Testing
+- Logging
 
+#### Code Review & Collaboration
+
+- Reading and understanding others' code
+- Code review
+- Pair programming
+
+---
 
 ### 🔵 Level 3 — Backend Developer (Professional)
 
