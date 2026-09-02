@@ -113,7 +113,7 @@ permalink: /en/index.html
 - Algorithm complexity
 - Advanced data structures
 
-#### Development tools
+#### Developer tools
 
 - CLI tools
 - Debugging
