@@ -1,9 +1,9 @@
 <footer>
   {% if site.github.is_project_page %}
     <p>{{ site.data[page.lang].maintainer_information }}</a></p>
+    <p id="last-updated">Last updated in {{ site.date }}</p>
   {% endif %}
   <div class="no-print">
     <button onclick="window.print()">{{ site.data[page.lang].print_page }}</button>
-    <p id="last-updated">Last updated in {{ site.date }}</p>
   </div>
 </footer>
