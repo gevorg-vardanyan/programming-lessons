@@ -80,22 +80,23 @@ permalink: /en/index.html
 
 ### 🟡 Level 2: Intermediate
 
-#### Python: Advanced
+#### Python
 
 - Programming paradigms
-- Object-oriented programming in Python
+- Object-oriented programming
 - Modules and packages
 - Exceptions and error handling
 - Comments and documentation
 - Package managers
 
-#### Git & Collaboration
+#### Git
 
 - Branching
 - Merging
 - Resolving merge conflicts
 - Pull requests
 - Code review basics
+- Reading other developers' code
 
 #### Databases
 
@@ -119,12 +120,6 @@ permalink: /en/index.html
 - Debugging
 - Testing
 - Logging
-
-#### Code Review & Collaboration
-
-- Reading and understanding others' code
-- Code review
-- Pair programming
 
 ---
 
@@ -194,6 +189,5 @@ permalink: /en/index.html
 - Project planning
 - Team-based development
 - Task tracking
-- Code review
 - Documentation
 - Project presentation
