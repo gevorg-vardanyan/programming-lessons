@@ -93,7 +93,6 @@ permalink: /en/index.html
 
 - Branching
 - Merging
-- Resolving merge conflicts
 - Pull requests
 - Code review basics
 - Reading other developers' code
