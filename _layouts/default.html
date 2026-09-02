@@ -14,8 +14,12 @@
     <script>
       const siteData = {{ site.data[page.lang] | jsonify }};
       document.title = "{{ page.title }} | " + siteData.title;
-      const github = {{ site.github | jsonify }};
-      console.log('github:', github);
+      fetch('https://api.github.com/repos/gevorg-vardanyan/programming-lessons/commits?per_page=1')
+        .then(response => response.json())
+        .then(commits => {
+          const date = commits[0].commit.committer.date;
+          console.log('date:', date);
+      });
     </script>
   </head>
   <body>
