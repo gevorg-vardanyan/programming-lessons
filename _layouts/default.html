@@ -14,12 +14,15 @@
     <script>
       const siteData = {{ site.data[page.lang] | jsonify }};
       document.title = "{{ page.title }} | " + siteData.title;
-      fetch('https://api.github.com/repos/gevorg-vardanyan/programming-lessons/commits?per_page=1')
+
+      const githubOwner = "{{ site.github.owner_name }}";
+      const githubRepo = "{{ site.github.repository_name }}";
+      const apiUrl = `https://api.github.com/repos/${githubOwner}/${githubRepo}/commits?per_page=1`;
+      fetch(apiUrl)
         .then(response => response.json())
         .then(commits => {
           const date = commits[0].commit.committer.date.split('T')[0];      
           document.getElementById('last-updated').textContent += ` ${date}`;
-          console.log('date:', date)
       });
     </script>
   </head>
