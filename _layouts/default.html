@@ -14,6 +14,8 @@
     <script>
       const siteData = {{ site.data[page.lang] | jsonify }};
       document.title = "{{ page.title }} | " + siteData.title;
+      const github = {{ site.github | jsonify }};
+      console.log('github:', github);
     </script>
   </head>
   <body>
