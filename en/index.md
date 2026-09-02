@@ -55,7 +55,7 @@ permalink: /en/index.html
 #### Automation
 
 - Automating repetitive tasks
-- `cron` and scheduled tasks
+- cron and scheduled tasks
 - Combining scripts with scheduled execution
 
 #### Python: fundamentals
