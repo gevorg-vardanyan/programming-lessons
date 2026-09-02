@@ -65,6 +65,7 @@ permalink: /en/index.html
 - Conditions and loops
 - Functions
 - Working with files
+- Code style, format and quality
 
 #### Development environment
 
@@ -81,9 +82,11 @@ permalink: /en/index.html
 
 #### Python: Advanced
 
-* Object-oriented programming (OOP)
-* Modules and packages
+- Programming paradigms
+- Object-oriented programming in Python
+- Modules and packages
 - Exceptions and error handling
+- Comments and documentation
 - Package managers
 
 #### Git & Collaboration
@@ -125,11 +128,7 @@ permalink: /en/index.html
 
 ---
 
-### 🔵 Level 3 — Backend Developer (Professional)
-
-> **Become job-ready**
-
-**Goal:** Build production-like systems.
+### 🔵 Level 3 — Backend development
 
 #### Web Development
 
@@ -140,7 +139,7 @@ permalink: /en/index.html
 #### Frameworks
 
 - Django (main focus)
-- Flask (lightweight understanding)
+- Flask
 
 #### Authentication & Security
 
@@ -150,35 +149,27 @@ permalink: /en/index.html
 
 #### Project Architecture
 
-- MVC
-- Code structure
+- Application structure
+- Separation of responsibilities
+- Architectural patterns
+- Configuration and environment management
 - Scaling basics
 
-#### Deployment
-
-- Linux server basics
-- Running apps
-- Nginx / Gunicorn (optional)
-
-
+---
 
 ### 🟣 Level 4 — Real Work Simulation
 
-> **Work like in a real company**
-
-**Goal:** Bridge the gap between learning and a real job.
-
 #### Team Work
 
-- Pair programming
 - Agile basics
 - Task tracking
+- Pair programming
 
 #### Work Environment
 
-- Slack / Element
-- Email (Proton example)
+- Professional communication
 - Documentation
+- Software licenses
 
 #### Roles in IT
 
@@ -186,23 +177,22 @@ permalink: /en/index.html
 - Responsibilities
 - Career growth
 
+#### AI for Developers
+
+- Artificial and natural intelligence
+- When and how to use AI
+- AI-assisted development
+- Vibe coding and its risks
+- Ethics and responsible use of AI
+- AI tools for developers
+- AI-assisted searching and research
+- AI-assisted code review and verification
+
 #### Final Project
 
-
-
-### 🤖 Bonus Module — AI for Developers
-
-> **Use AI as a practical development tool**
-
-#### AI & Programming
-
-- AI vs traditional programming
-- Using AI tools
-- Building a simple chatbot
-- How developers actually use AI today
-
-
-- Team-based
-- Real-world scenario
-- Code review + presentation
-
+- Project planning
+- Team-based development
+- Task tracking
+- Code review
+- Documentation
+- Project presentation
