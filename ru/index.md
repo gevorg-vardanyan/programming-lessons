@@ -9,155 +9,181 @@ permalink: /ru/index.html
 
 <br>
 
-### 🟢 Уровень 1 — Начальный (Основы)
+### 🟢 Уровень 1: Основы
 
-> **От нуля до написания ваших первых настоящих программ**
+#### Linux / Ubuntu: основы
 
-**Цель:** Студент понимает, как работает компьютер, и умеет писать простые программы на языке Python..
+- Установка операционной системы
+- Знакомство с системой
+- Файловая система
+- Здоровые привычки при работе за компьютером
 
-#### Linux / Ubuntu Basics
+#### Рабочая среда
 
-- Installing OS
-- File system
-- Terminal basics
-- Package managers
+- Инструменты для коммуникации
+- Задания и домашняя работа
 
-#### Terminal & Shell
+#### Работа с файлами и папками
 
-- Bash basics
-- Navigation, pipes, redirection
-- Writing simple scripts
+- Просмотр файлов и папок
+- Навигация между папками
+- Поиск и фильтрация
 
-#### Python Basics
+#### Редактор кода: основы
 
-- Variables, types
-- Conditions, loops
-- Functions
-- Files
+- Vim и Neovim
+- Основы редактирования
+- Режимы
+- Операторы и перемещения
+- Клавиатура и слепая печать
 
-#### Tools Introduction
+#### Git: основы
 
-- Git (basic)
-- Editor
+- Репозиторий
+- Основные команды
+- Commit
+- Удалённые репозитории
+
+#### Shell-скриптинг
+
+- Создание простых скриптов
+- Переменные и аргументы
+- Условия и циклы
+- Запуск скриптов
+
+#### Автоматизация
+
+- Автоматизация повторяющихся задач
+- cron и запланированные задачи
+- Объединение скриптов с запланированным выполнением
+
+#### Python: основы
+
+- Переменные и типы
+- Встроенные структуры данных
+- Условия и циклы
+- Функции
+- Работа с файлами
+- Стиль, форматирование и качество кода
+
+#### Среда разработки
+
+- IDE
+- Структура проекта
+- Создание проекта
+- Виртуальное окружение Python
+- Зависимости
+- Переменные окружения
 
 ---
 
-### 🟡 Level 2 — Intermediate (Real Development)
+### 🟡 Уровень 2: Средний уровень
 
-> **Start thinking like a developer**
+#### Python
 
-**Goal:** Build real applications and understand the development workflow.
+- Парадигмы программирования
+- Объектно-ориентированное программирование
+- Модули и пакеты
+- Исключения и обработка ошибок
+- Комментарии и документация
+- Менеджеры пакетов
 
-#### Python Advanced
+#### Git
 
-- OOP
-- Modules & packages
-- Virtual environments
-- Error handling
-
-#### Git & Collaboration
-
-- Branching
+- Ветвление
+- Слияние
 - Pull requests
-- Code review basics
+- Основы проверки/пересмотра кода
+- Чтение кода других разработчиков
 
-#### Databases
+#### Базы данных
 
-- SQL basics
+- Типы баз данных
+- Основы SQL
 - PostgreSQL
-- CRUD operations
-- Simple schema design
+- CRUD-операции
+- Проектирование базы данных
+- Нормализация
 
-#### Algorithms (Practical)
+#### Алгоритмы
 
-- Searching
-- Sorting
-- Data structures basics
+- Поиск
+- Сортировка
+- Сложность алгоритмов
+- Продвинутые структуры данных
 
-#### Development Environment
+#### Инструменты разработчика
 
-- Vim / Neovim
-- CLI tools
-- Debugging
+- CLI инструменты
+- Отладка
+- Тестирование
+- Логирование
 
+---
 
-### 🔵 Level 3 — Backend Developer (Professional)
+### 🔵 Уровень 3: Backend разработка
 
-> **Become job-ready**
+#### Веб-технологии
 
-**Goal:** Build production-like systems.
-
-#### Web Development
-
-- HTTP basics
-- APIs
+- Основы HTTP
+- API
 - REST
 
-#### Frameworks
+#### Фреймворки
 
-- Django (main focus)
-- Flask (lightweight understanding)
+- Django (основное направление)
+- Flask
 
-#### Authentication & Security
+#### Аутентификация и безопасность
 
-- Sessions
-- Tokens
-- Basics of security
+- Сессии
+- Токены
+- Основы безопасности
 
-#### Project Architecture
+#### Архитектура проекта
 
-- MVC
-- Code structure
-- Scaling basics
+- Структура приложения
+- Разделение ответственности
+- Архитектурные паттерны
+- Управление конфигурацией и окружением
+- Основы масштабирования
 
-#### Deployment
+---
 
-- Linux server basics
-- Running apps
-- Nginx / Gunicorn (optional)
+### 🟣 Уровень 4: Рабочий процесс
 
+#### Командная работа
 
+- Основы Agile
+- Управление задачами
+- Работа в парах
 
-### 🟣 Level 4 — Real Work Simulation
+#### Рабочая среда
 
-> **Work like in a real company**
+- Профессиональная коммуникация
+- Документация
+- Лицензии на программное обеспечение
 
-**Goal:** Bridge the gap between learning and a real job.
+#### Роли в IT
 
-#### Team Work
+- Роли в команде разработки
+- Карьерные уровни и обязанности
+- Профессиональное развитие
 
-- Pair programming
-- Agile basics
-- Task tracking
+#### Искусственный интеллект: AI
 
-#### Work Environment
+- Что такое AI и как он работает?
+- Искусственный и естественный интеллект
+- Когда и как использовать AI
+- Разработка с помощью AI
+- Vibe coding и его риски
+- Инструменты AI для разработчиков
+- Этика и ответственное использование AI
 
-- Slack / Element
-- Email (Proton example)
-- Documentation
+#### Финальный проект
 
-#### Roles in IT
-
-- Junior / Middle / Senior
-- Responsibilities
-- Career growth
-
-#### Final Project
-
-
-
-### 🤖 Bonus Module — AI for Developers
-
-> **Use AI as a practical development tool**
-
-#### AI & Programming
-
-- AI vs traditional programming
-- Using AI tools
-- Building a simple chatbot
-- How developers actually use AI today
-
-
-- Team-based
-- Real-world scenario
-- Code review + presentation
+- Планирование проекта
+- Командная разработка
+- Управление задачами
+- Документация
+- Презентация проекта
