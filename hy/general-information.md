@@ -15,22 +15,14 @@ lang: hy
 Ահա ամբողջական տեքստը, որը սկզբում թաքցված է։
 Այն կարող է պարունակել **Markdown**, ցուցակներ, կոդ և այլն։
 </details>
+<hr>
 
 <details>
-  
-  <summary>Contents of <code>file.txt</code></summary>
-  
-  ```
-  [File contents inside code block]
-  ```
-
+  <summary><i>Մանրամասներ</i></summary>
+  Ահա ամբողջական տեքստը, որը սկզբում թաքցված է։
+  Այն կարող է պարունակել **Markdown**, ցուցակներ, կոդ և այլն։
 </details>
-
-<details>
-  <summary><i>Wow, so fancy</i></summary>
-  <b>WOW, SO BOLD</b>
-</details>
-<br>
+<hr>
 
 - Ուսումնական շաբաթը բաղկացած է **3 դասից**։
 - Յուրաքանչյուր դաս տևում է **2 ժամ** կամ ավելին․
