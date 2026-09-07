@@ -405,6 +405,12 @@ details summary:hover {
   color: #0969da;
 }
 
+.custom-hint {
+  font-size: 0.9em;
+  opacity: 0.75;
+  font-style: italic;
+}
+
 @media print, screen and (max-width: 1060px) {
 
   div.wrapper {
