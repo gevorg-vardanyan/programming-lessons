@@ -16,13 +16,17 @@ lang: hy
 Այն կարող է պարունակել **Markdown**, ցուցակներ, կոդ և այլն։
 <hr>
 </details>
-<br>
+
 <details>
   <summary><i>Մանրամասներ</i></summary>
   Ահա ամբողջական տեքստը, որը սկզբում թաքցված է։
   Այն կարող է պարունակել **Markdown**, ցուցակներ, կոդ և այլն։
 </details>
 
+<details markdown=block>
+<summary markdown=span>A *Summary*</summary>
+These are the **details** for this item.
+</details>
   
 
 - Ուսումնական շաբաթը բաղկացած է **3 դասից**։
