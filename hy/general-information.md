@@ -11,17 +11,22 @@ lang: hy
 
 
 <details>
-<summary><mark>Մանրամասներ</mark></summary>
+<summary>Մանրամասներ</summary>
 Ահա ամբողջական տեքստը, որը սկզբում թաքցված է։
 Այն կարող է պարունակել **Markdown**, ցուցակներ, կոդ և այլն։
 <hr>
 </details>
-
+<br>
 <details>
   <summary><i>Մանրամասներ</i></summary>
   Ահա ամբողջական տեքստը, որը սկզբում թաքցված է։
   Այն կարող է պարունակել **Markdown**, ցուցակներ, կոդ և այլն։
 </details>
+
+> [!NOTE]
+> Useful information that users should know.
+
+
 <p>
   
 </p>
