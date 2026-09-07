@@ -17,11 +17,13 @@ lang: hy
 </details>
 
 <details>
-<summary>Contents of <code>file.txt</code></summary>
+  
+  <summary>Contents of <code>file.txt</code></summary>
+  
+  ```
+  [File contents inside code block]
+  ```
 
-```
-[File contents inside code block]
-```
 </details>
 
 
