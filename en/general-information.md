@@ -10,7 +10,7 @@ lang: en
 ### 📚 Learning Process
 
 - The learning week consists of **3 lessons**.
-- Each lesson takes approximately **2 hours**:
+- Each lesson takes **2 hours** or more:
   - **45–50 minutes** — first part of the lesson.
   - **10–15 minutes** — break.
   - **45–50 minutes** — second part of the lesson.
