@@ -398,6 +398,7 @@ footer {
 details summary {
   color: #6b9bd2;
   cursor: pointer;
+  display: revert;
 }
 
 details summary:hover {
