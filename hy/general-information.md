@@ -16,6 +16,15 @@ lang: hy
 Այն կարող է պարունակել **Markdown**, ցուցակներ, կոդ և այլն։
 </details>
 
+<details>
+<summary>Contents of <code>file.txt</code></summary>
+
+```
+[File contents inside code block]
+```
+</details>
+
+
 - Ուսումնական շաբաթը բաղկացած է **3 դասից**։
 - Յուրաքանչյուր դաս տևում է **2 ժամ** կամ ավելին․
   - **45–50 րոպե**. դասի առաջին հատված
