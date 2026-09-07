@@ -14,8 +14,8 @@ lang: hy
 <summary>Մանրամասներ</summary>
 Ահա ամբողջական տեքստը, որը սկզբում թաքցված է։
 Այն կարող է պարունակել **Markdown**, ցուցակներ, կոդ և այլն։
-</details>
 <hr>
+</details>
 
 <details>
   <summary><i>Մանրամասներ</i></summary>
