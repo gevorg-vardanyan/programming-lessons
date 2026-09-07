@@ -395,6 +395,15 @@ footer {
   margin-top: 8px;
 }
 
+details summary {
+  color: #6b9bd2;
+  cursor: pointer;
+}
+
+details summary:hover {
+  color: #0969da;
+}
+
 @media print, screen and (max-width: 1060px) {
 
   div.wrapper {
