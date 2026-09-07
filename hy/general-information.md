@@ -26,6 +26,11 @@ lang: hy
 
 </details>
 
+<details>
+  <summary><i>Wow, so fancy</i></summary>
+  <b>WOW, SO BOLD</b>
+</details>
+<br>
 
 - Ուսումնական շաբաթը բաղկացած է **3 դասից**։
 - Յուրաքանչյուր դաս տևում է **2 ժամ** կամ ավելին․
