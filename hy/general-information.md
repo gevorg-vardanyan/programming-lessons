@@ -15,6 +15,11 @@ lang: hy
 Այն կարող է պարունակել **Markdown**, ցուցակներ, կոդ և այլն։
 </details>
 
+<p>
+  Hover the link to see the
+  <a href="#" data-mdb-tooltip-init title="Hi! I'm tooltip">tooltip</a>
+</p>
+
 
 - Ուսումնական շաբաթը բաղկացած է **3 դասից**։
 - Յուրաքանչյուր դաս տևում է **2 ժամ** կամ ավելին․
