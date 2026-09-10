@@ -44,7 +44,6 @@ permalink: /hy/index.html
 </details>
 
 - Vim, Neovim
-- Հիմնական խմբագրում
 - Ռեժիմներ
 - Ստեղնաշար և կույր տպագրություն
 
