@@ -7,7 +7,7 @@ print_page: "🖨️ Տպել այս էջը"
 maintainer_information: "Նախագծի հեղինակ՝ Գևորգ Վարդանյան"
 last_updated: "Վերջին թարմացումը`"
 course_form:
-  text: "Դասընթացին մասնակցելու համար"
+  title: "Դասընթացին մասնակցելու համար"
   fill: "լրացրեք"
   link_text: "մասնակցության հարցաթերթիկը։"
   url: "https://forms.gle/zGk4K6K32atUXhGm6"
