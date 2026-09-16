@@ -7,11 +7,7 @@ permalink: /hy/index.html
 ## 📚 Ուսումնական ծրագիր
 > ⚠️ **Ուշադրություն․** Ստորև ներկայացված է դասընթացի հիմնական թեմաների ցանկը։ Յուրաքանչյուր թեմա ներառում է մեկից ավելի դաս։ Թեմաների մանրամասն բովանդակությունն ու գործնական աշխատանքները քննարկվում են դասընթացի ընթացքում։
 
-
-> 💡 **Դասընթացին մասնակցելու համար** լրացրեք [մասնակցության հարցաթերթիկը](https://forms.gle/zGk4K6K32atUXhGm6)։ Lրացնելուց հետո մենք կապ կհաստատենք ձեզ հետ՝ հետագա քայլերի վերաբերյալ։
-
 > 💡 **{{ site.data[page.lang].course_form.title }}** {{ site.data[page.lang].course_form.fill }} [{{ site.data[page.lang].course_form.link_text }}]({{ site.data[page.lang].course_form.url }}) {{ site.data[page.lang].course_form.after }}
-
 
 <br>
 
