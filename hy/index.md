@@ -196,7 +196,7 @@ permalink: /hy/index.html
 #### Վեբ տեխնոլոգիաներ
 
 - HTTP. հիմունքներ
-- API-ներ
+- API
 - REST
 
 #### Ֆրեյմվորքեր
