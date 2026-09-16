@@ -1,0 +1,1 @@
+> 💡 **{{ site.data[page.lang].course_form.title }}** {{ site.data[page.lang].course_form.fill }} [{{ site.data[page.lang].course_form.link_text }}]({{ site.data[page.lang].course_form.url }}) {{ site.data[page.lang].course_form.after }}
